@@ -35,11 +35,11 @@ To address these limitations, we employ **XGBoostLSS**, an extension of XGBoost 
 ## References & Key Papers
 This project relies on the theoretical frameworks described in the papers located in the `papers/` directory:
 
-* **XGBoostLSS: An Extension of XGBoost to Probabilistic Forecasting** ()
+* **XGBoostLSS: An Extension of XGBoost to Probabilistic Forecasting** 
     * This is the core methodology used in our project. It extends the standard XGBoost algorithm to model all moments of a parametric distribution (Location, Scale, and Shape) rather than just the conditional mean.
-* **NGBoost: Natural Gradient Boosting for Probabilistic Prediction** ()
+* **NGBoost: Natural Gradient Boosting for Probabilistic Prediction**
     * A foundational paper in probabilistic boosting that introduces the use of "Natural Gradients" to jointly estimate distributional parameters. It serves as a key benchmark and theoretical inspiration for our probabilistic approach.
-* **Distributional Gradient Boosting Machines** ()
+* **Distributional Gradient Boosting Machines**
     * Presents a unified framework for probabilistic gradient boosting. It discusses using Likelihood-based approaches and Normalizing Flows to approximate conditional distributions, providing broader context for the methods applied in this project.
 
 ## Installation
