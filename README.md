@@ -1,4 +1,4 @@
-# Gradient-Masters: Distributional Forecasting of Real Income
+# Distributional Forecasting of Real Income
 
 ## Overview
 The objective of this project is to model real income probabilistically rather than through traditional point estimates. Conventional regression approaches, such as standard Gradient Boosting (e.g., XGBoost), only estimate the conditional mean and fail to capture uncertainty or the distributional shape of the data.
